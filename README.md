@@ -1,6 +1,6 @@
 # CryptoAnalysisTasks
 Creating basic substitution based cypher algorithms
-## Task One: Cryptanalysis (2 marks)
+## Task One: Cryptanalysis 
 There are two ciphertext files provided. These files are Ctext-1 and Ctext-2. They have been generated using a monoalphabetic cipher and a Vigenère cipher respectively.
 You need to:
  Apply cryptanalysis to each of Ctext-1 & Ctext-2.
@@ -9,7 +9,7 @@ Present a report describing what steps you took to break each cipher, and why. J
  Provide plaintext and key for each cipher. You should include them as files Ptext-1.txt, Key-1.txt, Ptext-2.txt, and Key-2.txt, and give them in your report (Report1.pdf)
  Cite the tools or software used in your report.
  If you only provide final answer but without any proper analysis, then you will obtain 0.
-## Task Two: Substitution Cipher (2 marks)
+## Task Two: Substitution Cipher
 A substitution cipher by a keyword works as follows. If a keyword is “STRAWBERRY”, we remove the repeating characters in it to get “STAWBEY”. Then, we append the rest of the alphabet characters in reverse order (from ‘Z’ to ‘A’) to the keyword to construct a key i.e., “STAWBEYZXVURQPONMLKJIHGFDC” to form a complete substitution key. Finally, we encrypt a message by substituting its characters in the key as follows:
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
@@ -27,7 +27,7 @@ handle any possible errors;
 Write in C/C++ or Java;
 be submitted with a clear readme.txt file.
 NB: Ignore case. That is, you can choose whether you will input and output uppercase or lowercase characters. Also, keep (do not encrypt) special character such as full stops and commas.
-## Task Three: Flipped Kamasutra Cipher (2 marks)
+## Task Three: Flipped Kamasutra Cipher
 Implement Kama Sutra cipher, in C, C++, Java or Python. The name of your program should be Kamasutra.c or Kamasutra.cpp or Kamasutra.java or Kamasutra.py. Include in your report instructions on how to compile your code. You must include a Makefile that can be used to build your program. To build your program, one can just type:
 make all
 The command syntax of your program should be as follows:
